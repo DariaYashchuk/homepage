@@ -17,16 +17,18 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="index.html" class="nav__link" id="nav__link">Home</a>
+              <a href="index.html" class="nav__link">Home</a>
             </li>
             <li class="nav__item">
-              <a href="#about" class="nav__link" id="nav__link">About me</a>
+              <a href="#about" class="nav__link">About me</a>
             </li>
             <li class="nav__item">
-              <a href="#projects" class="nav__link" id="nav__link">Progects</a>
+              <a href="#projects" class="nav__link">Progects</a>
             </li>
             <li class="nav__item">
-              <a href="#contact" class="button" id="nav__link">Contact me</a>
+              <a href="#contact" class="button nav__link contact__button"
+                >Contact me</a
+              >
             </li>
           </ul>
           <div class="nav__close" id="nav-close">
@@ -38,6 +40,48 @@
         </div>
       </nav>
     </header>
+    <main class="main">
+      <section class="home section">
+        <div class="home__decor"></div>
+        <div class="home__container container">
+          <div class="home__img img">
+            <div class="img__content">
+              <img width="100%" src="./assets/img/img.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="home__content">
+            <div class="home__data">
+              <h1 class="home__name">Daria Yashchuk</h1>
+              <h2 class="home__profession">Front-end Developer</h2>
+
+              <div class="home__social">
+                <a
+                  href="https://github.com/DariaYashchuk"
+                  target="_blank"
+                  class="home__social-link"
+                >
+                  <i class="fa-brands fa-github"></i
+                ></a>
+
+                <a
+                  href="https://www.linkedin.com/in/daria-yashchuk-769b12284/"
+                  target="_blank"
+                  class="home__social-link"
+                  ><i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+
+            <a
+              href="mailto:dariayashchuk2000@gmail.com"
+              class="home__button button"
+              >Send Email</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
