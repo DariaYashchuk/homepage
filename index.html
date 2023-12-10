@@ -3,8 +3,285 @@
   <head>
     <meta charset="UTF-8" />
     <title>Résumé</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/d597990a26.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <header class="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Dasha</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About me</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Progects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="button nav__link contact__button"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="nav__drop" id="nav-drop">
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="home section">
+        <div class="home__decor"></div>
+        <div class="home__container container">
+          <div class="home__img img">
+            <div class="img__content">
+              <img width="100%" src="./assets/img/img.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="home__content">
+            <div class="home__data">
+              <h1 class="home__name">Daria Yashchuk</h1>
+              <h2 class="home__profession">Front-end Developer</h2>
+
+              <div class="home__social">
+                <a
+                  href="https://github.com/DariaYashchuk"
+                  target="_blank"
+                  class="home__social-link"
+                >
+                  <i class="fa-brands fa-github"></i
+                ></a>
+
+                <a
+                  href="https://www.linkedin.com/in/daria-yashchuk-769b12284/"
+                  target="_blank"
+                  class="home__social-link"
+                  ><i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+
+            <a
+              href="mailto:dariayashchuk2000@gmail.com"
+              class="home__button button"
+              >Send Email</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="about section" id="about">
+        <h2 class="section__title">
+          My Personal <br />
+          Information
+        </h2>
+        <div class="about__container container">
+          <div class="about__content">
+            <div class="about__data">
+              <div class="about__info">
+                <p class="about__description">
+                  I am a <b>Front-end developer</b> with knowledge of HTML, CSS,
+                  JavaScript, and React. I have a strong understanding of how
+                  daily practice and willingness to learn are significant for
+                  self-improvement. Being <b>highly responsible</b>, diligent,
+                  and goal-oriented helps me grow up and gain new experience.
+                  Strong
+                  <b>analytical thinking and excellent time management</b>
+                  skills are also competitive strengths of mine.
+                </p>
+              </div>
+            </div>
+
+            <div class="about__skills">
+              <h3 class="about__skills-title">My Skills Are</h3>
+              <div class="about__skills-content">
+                <img
+                  src="./assets/img/about-html.svg"
+                  alt="image"
+                  class="about__skills-img"
+                />
+
+                <img
+                  src="./assets/img/about-css.svg"
+                  alt="image"
+                  class="about__skills-img"
+                />
+
+                <img
+                  src="./assets/img/about-git.svg"
+                  alt="image"
+                  class="about__skills-img"
+                />
+
+                <img
+                  src="./assets/img/about-github.svg"
+                  alt="image"
+                  class="about__skills-img"
+                />
+
+                <img
+                  src="./assets/img/about-javascript.svg"
+                  alt="image"
+                  class="about__skills-img"
+                />
+
+                <img
+                  src="./assets/img/about-figma.svg"
+                  alt="image"
+                  class="about__skills-img"
+                />
+
+                <img
+                  src="./assets/img/about-tailwind-css.svg"
+                  alt="image"
+                  class="about__skills-img"
+                />
+
+                <img
+                  src="./assets/img/about-react.svg"
+                  alt="image"
+                  class="about__skills-img"
+                />
+              </div>
+
+              <div class="about__skills-more">
+                <div class="about__skills-more-wrapper">
+                  <h3 class="about__skills-more-header">Tech</h3>
+                  <div class="about__skills-more-info">
+                    <p class="skill">HTML5/CSS3/SASS</p>
+                    <p class="skill">Responsive/Adaptive design</p>
+                    <p class="skill">JavaScript</p>
+                    <p class="skill">GIT</p>
+                    <p class="skill">Parcel, Webpack</p>
+                    <p class="skill">REST API</p>
+                    <p class="skill">React</p>
+                  </div>
+                </div>
+
+                <div class="about__skills-more-wrapper">
+                  <h3 class="about__skills-more-header">Soft</h3>
+                  <div class="about__skills-more-info">
+                    <p class="skill">Teamwork</p>
+                    <p class="skill">Problem Solving</p>
+                    <p class="skill">Determined</p>
+                    <p class="skill">Punctual</p>
+                    <p class="skill">Organized</p>
+                  </div>
+                </div>
+
+                <div class="about__skills-more-wrapper">
+                  <h3 class="about__skills-more-header">Languages</h3>
+                  <div class="about__skills-more-info">
+                    <p class="skill">English - Upper-Intermediate</p>
+                    <p class="skill">Ukrainian - Native</p>
+                  </div>
+                </div>
+
+                <div class="about__skills-more-wrapper">
+                  <h3 class="about__skills-more-header">Education</h3>
+                  <div class="about__skills-more-info">
+                    <p class="skill">Fullstack Developer</p>
+                    <p class="skill">IT School GoIT</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="work section" id="projects">
+        <h2 class="section__title">My Projets</h2>
+
+        <div class="container work__container">
+          <a
+            href="https://dariayashchuk.github.io/goit-react-hw-05-movies/"
+            target="_blank"
+            ><div class="work__wrapper">
+              <h3 class="work__title">Movies</h3>
+              <h4 class="work__tech">
+                [React (Hooks, Routers, Local storage, Axios, Styled)]
+              </h4>
+              <p class="work__descrip">
+                A website for choosing a movie, responsive layout, burger menu,
+                and modal window. (Pet Project)
+              </p>
+              <p class="work__role">Pet project</p>
+            </div></a
+          >
+
+          <a
+            href="https://dariayashchuk.github.io/goit-react-hw-08-phonebook/"
+            target="_blank"
+          >
+            <div class="work__wrapper">
+              <h3 class="work__title">Phonebook</h3>
+              <h4 class="work__tech">
+                [React, Redux Toolkit, Axios, Modules, React Route]
+              </h4>
+              <p class="work__descrip">
+                A simple phonebook where you can add, remove or filter contacts,
+                register profile
+              </p>
+              <p class="work__role">Role: Developer</p>
+            </div>
+          </a>
+
+          <a
+            href="https://dyhless.github.io/team-project-bookmark/"
+            target="_blank"
+          >
+            <div class="work__wrapper">
+              <h3 class="work__title">Bookmark</h3>
+              <h4 class="work__tech">[HTML, CSS, JS, Parcel, Axios]</h4>
+              <p class="work__descrip">
+                A website with responsive layout, burger menu, modal window,
+                authorization.
+              </p>
+              <p class="work__role">Role: Developer</p>
+            </div>
+          </a>
+
+          <a href="https://famous-kangaroo-13b7b5.netlify.app/" target="_blank">
+            <div class="work__wrapper">
+              <h3 class="work__title">Articles Summarizer</h3>
+              <h4 class="work__tech">
+                [Vite, React, Redux, Tailwind, Netlify Deployment]
+              </h4>
+              <p class="work__descrip">
+                An article summarizer that transforms lengthy articles into
+                clear and brief summaries Pet Project
+              </p>
+              <p class="work__role">Pet project</p>
+            </div>
+          </a>
+
+          <a href="https://dariayashchuk.github.io/car-rent/" target="_blank"
+            ><div class="work__wrapper">
+              <h3 class="work__title">Car Rent</h3>
+              <h4 class="work__tech">
+                [React (Hooks, Routers, Local storage, Axios, Styled), Redux]
+              </h4>
+              <p class="work__descrip">
+                A website that helps you to find the car with filters, add them
+                to favorites
+              </p>
+              <p class="work__role">Per Project</p>
+            </div></a
+          >
+        </div>
+      </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
